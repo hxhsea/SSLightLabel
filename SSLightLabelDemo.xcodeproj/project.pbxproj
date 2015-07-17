@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83C823D61B57B6A1002E0660 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C823D51B57B6A1002E0660 /* main.m */; };
+		83C823D91B57B6A1002E0660 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C823D81B57B6A1002E0660 /* AppDelegate.m */; };
+		83C823DC1B57B6A1002E0660 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C823DB1B57B6A1002E0660 /* ViewController.m */; };
+		83C823DF1B57B6A1002E0660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C823DD1B57B6A1002E0660 /* Main.storyboard */; };
+		83C823E11B57B6A1002E0660 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C823E01B57B6A1002E0660 /* Images.xcassets */; };
+		83C823E41B57B6A1002E0660 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83C823E21B57B6A1002E0660 /* LaunchScreen.xib */; };
+		83C823F01B57B6A1002E0660 /* SSLightLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C823EF1B57B6A1002E0660 /* SSLightLabelDemoTests.m */; };
+		83C823FC1B57B6E5002E0660 /* SSLightLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C823FB1B57B6E5002E0660 /* SSLightLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83C823EA1B57B6A1002E0660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83C823C81B57B6A1002E0660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83C823CF1B57B6A1002E0660;
+			remoteInfo = SSLightLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83C823D01B57B6A1002E0660 /* SSLightLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLightLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C823D41B57B6A1002E0660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C823D51B57B6A1002E0660 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83C823D71B57B6A1002E0660 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83C823D81B57B6A1002E0660 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83C823DA1B57B6A1002E0660 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		83C823DB1B57B6A1002E0660 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		83C823DE1B57B6A1002E0660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83C823E01B57B6A1002E0660 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		83C823E31B57B6A1002E0660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		83C823E91B57B6A1002E0660 /* SSLightLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLightLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C823EE1B57B6A1002E0660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C823EF1B57B6A1002E0660 /* SSLightLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSLightLabelDemoTests.m; sourceTree = "<group>"; };
+		83C823FA1B57B6E5002E0660 /* SSLightLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLightLabel.h; sourceTree = "<group>"; };
+		83C823FB1B57B6E5002E0660 /* SSLightLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLightLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83C823CD1B57B6A1002E0660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C823E61B57B6A1002E0660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83C823C71B57B6A1002E0660 = {
+			isa = PBXGroup;
+			children = (
+				83C823F91B57B6C0002E0660 /* SSLightLabel */,
+				83C823D21B57B6A1002E0660 /* SSLightLabelDemo */,
+				83C823EC1B57B6A1002E0660 /* SSLightLabelDemoTests */,
+				83C823D11B57B6A1002E0660 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83C823D11B57B6A1002E0660 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83C823D01B57B6A1002E0660 /* SSLightLabelDemo.app */,
+				83C823E91B57B6A1002E0660 /* SSLightLabelDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83C823D21B57B6A1002E0660 /* SSLightLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				83C823D71B57B6A1002E0660 /* AppDelegate.h */,
+				83C823D81B57B6A1002E0660 /* AppDelegate.m */,
+				83C823DA1B57B6A1002E0660 /* ViewController.h */,
+				83C823DB1B57B6A1002E0660 /* ViewController.m */,
+				83C823DD1B57B6A1002E0660 /* Main.storyboard */,
+				83C823E01B57B6A1002E0660 /* Images.xcassets */,
+				83C823E21B57B6A1002E0660 /* LaunchScreen.xib */,
+				83C823D31B57B6A1002E0660 /* Supporting Files */,
+			);
+			path = SSLightLabelDemo;
+			sourceTree = "<group>";
+		};
+		83C823D31B57B6A1002E0660 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83C823D41B57B6A1002E0660 /* Info.plist */,
+				83C823D51B57B6A1002E0660 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83C823EC1B57B6A1002E0660 /* SSLightLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				83C823EF1B57B6A1002E0660 /* SSLightLabelDemoTests.m */,
+				83C823ED1B57B6A1002E0660 /* Supporting Files */,
+			);
+			path = SSLightLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		83C823ED1B57B6A1002E0660 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83C823EE1B57B6A1002E0660 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83C823F91B57B6C0002E0660 /* SSLightLabel */ = {
+			isa = PBXGroup;
+			children = (
+				83C823FA1B57B6E5002E0660 /* SSLightLabel.h */,
+				83C823FB1B57B6E5002E0660 /* SSLightLabel.m */,
+			);
+			path = SSLightLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83C823CF1B57B6A1002E0660 /* SSLightLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C823F31B57B6A1002E0660 /* Build configuration list for PBXNativeTarget "SSLightLabelDemo" */;
+			buildPhases = (
+				83C823CC1B57B6A1002E0660 /* Sources */,
+				83C823CD1B57B6A1002E0660 /* Frameworks */,
+				83C823CE1B57B6A1002E0660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSLightLabelDemo;
+			productName = SSLightLabelDemo;
+			productReference = 83C823D01B57B6A1002E0660 /* SSLightLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83C823E81B57B6A1002E0660 /* SSLightLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83C823F61B57B6A1002E0660 /* Build configuration list for PBXNativeTarget "SSLightLabelDemoTests" */;
+			buildPhases = (
+				83C823E51B57B6A1002E0660 /* Sources */,
+				83C823E61B57B6A1002E0660 /* Frameworks */,
+				83C823E71B57B6A1002E0660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83C823EB1B57B6A1002E0660 /* PBXTargetDependency */,
+			);
+			name = SSLightLabelDemoTests;
+			productName = SSLightLabelDemoTests;
+			productReference = 83C823E91B57B6A1002E0660 /* SSLightLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83C823C81B57B6A1002E0660 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = smallsea;
+				TargetAttributes = {
+					83C823CF1B57B6A1002E0660 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					83C823E81B57B6A1002E0660 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 83C823CF1B57B6A1002E0660;
+					};
+				};
+			};
+			buildConfigurationList = 83C823CB1B57B6A1002E0660 /* Build configuration list for PBXProject "SSLightLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83C823C71B57B6A1002E0660;
+			productRefGroup = 83C823D11B57B6A1002E0660 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83C823CF1B57B6A1002E0660 /* SSLightLabelDemo */,
+				83C823E81B57B6A1002E0660 /* SSLightLabelDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83C823CE1B57B6A1002E0660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C823DF1B57B6A1002E0660 /* Main.storyboard in Resources */,
+				83C823E41B57B6A1002E0660 /* LaunchScreen.xib in Resources */,
+				83C823E11B57B6A1002E0660 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C823E71B57B6A1002E0660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83C823CC1B57B6A1002E0660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C823DC1B57B6A1002E0660 /* ViewController.m in Sources */,
+				83C823D91B57B6A1002E0660 /* AppDelegate.m in Sources */,
+				83C823D61B57B6A1002E0660 /* main.m in Sources */,
+				83C823FC1B57B6E5002E0660 /* SSLightLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C823E51B57B6A1002E0660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C823F01B57B6A1002E0660 /* SSLightLabelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83C823EB1B57B6A1002E0660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83C823CF1B57B6A1002E0660 /* SSLightLabelDemo */;
+			targetProxy = 83C823EA1B57B6A1002E0660 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83C823DD1B57B6A1002E0660 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83C823DE1B57B6A1002E0660 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83C823E21B57B6A1002E0660 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83C823E31B57B6A1002E0660 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83C823F11B57B6A1002E0660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83C823F21B57B6A1002E0660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83C823F41B57B6A1002E0660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSLightLabelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83C823F51B57B6A1002E0660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSLightLabelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83C823F71B57B6A1002E0660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SSLightLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLightLabelDemo.app/SSLightLabelDemo";
+			};
+			name = Debug;
+		};
+		83C823F81B57B6A1002E0660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SSLightLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSLightLabelDemo.app/SSLightLabelDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83C823CB1B57B6A1002E0660 /* Build configuration list for PBXProject "SSLightLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C823F11B57B6A1002E0660 /* Debug */,
+				83C823F21B57B6A1002E0660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C823F31B57B6A1002E0660 /* Build configuration list for PBXNativeTarget "SSLightLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C823F41B57B6A1002E0660 /* Debug */,
+				83C823F51B57B6A1002E0660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83C823F61B57B6A1002E0660 /* Build configuration list for PBXNativeTarget "SSLightLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C823F71B57B6A1002E0660 /* Debug */,
+				83C823F81B57B6A1002E0660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83C823C81B57B6A1002E0660 /* Project object */;
+}
